@@ -301,7 +301,7 @@ main{
 
 /* CELULAR */
 
-@media screen and (min-resolution: 200dpi){
+@media screen and (min-resolution: 180dpi){
     /* Estruturas Genéricas */
     #pageone{
         background-image: url("https://www.sensecentar.org/sites/default/files/styles/max_1300x1300/public/2020-05/courtroom%20one.jpg?itok=3rzk1nHS");
