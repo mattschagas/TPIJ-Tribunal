@@ -342,9 +342,8 @@ main{
 
     #manchete h1{
         position: absolute;
-        width: 90%;
+        width: 100%;
         top: 63vh;
-        left: 5%;
         font-size: 4vh;
         text-align: center;
         color: rgb(17, 86, 216);
