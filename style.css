@@ -56,7 +56,9 @@ main{
     background-color: whitesmoke;
 }
 
-@media screen and (max-resolution: 180dpi){
+/* Computador */
+
+@media screen and (min-width: 650px) and (-webkit-max-device-pixel-ratio: 2) {
     /* Estruturas Genéricas */
 
     #pageone{
@@ -301,7 +303,8 @@ main{
 
 /* CELULAR */
 
-@media screen and (min-resolution: 180dpi){
+@media screen and (max-width: 920px) and (-webkit-min-device-pixel-ratio: 2){
+
     /* Estruturas Genéricas */
     #pageone{
         background-image: url("https://www.sensecentar.org/sites/default/files/styles/max_1300x1300/public/2020-05/courtroom%20one.jpg?itok=3rzk1nHS");
@@ -339,8 +342,10 @@ main{
 
     #manchete h1{
         position: absolute;
-        width: 100%;
-        top: 66vh;
+        width: 90%;
+        top: 63vh;
+        left: 50%;
+        transform: translateX(-50%);
         font-size: 4vh;
         text-align: center;
         color: rgb(17, 86, 216);
@@ -590,5 +595,20 @@ main{
         color: grey;
         transform: translate(-50%, -50%);
         text-align: right;
+    }
+}
+
+@media screen and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2){
+    #pageone{
+        background-size: cover;
+    }
+
+    #manchete h1{
+        top: 60vh;
+        font-size: 8vh;
+    }
+
+    .ninetypercentbr{
+        height: 80vh;
     }
 }
