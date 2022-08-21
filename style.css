@@ -56,7 +56,7 @@ main{
     background-color: whitesmoke;
 }
 
-@media screen and (min-width: 500px) and (max-resolution: 200dpi){
+@media screen and (max-resolution: 200dpi){
     /* Estruturas Genéricas */
 
     #pageone{
@@ -301,7 +301,7 @@ main{
 
 /* CELULAR */
 
-@media screen and (max-width: 500px) and (orientation: portrait) and (min-resolution: 200dpi){
+@media screen (orientation: portrait) and (min-resolution: 200dpi){
     /* Estruturas Genéricas */
     #pageone{
         background-image: url("https://www.sensecentar.org/sites/default/files/styles/max_1300x1300/public/2020-05/courtroom%20one.jpg?itok=3rzk1nHS");
@@ -593,7 +593,7 @@ main{
     }
 }
 
-@media screen and (max-height: 500px) and (orientation: landscape) and (min-resolution: 200dpi){
+@media screen and (orientation: landscape) and (min-resolution: 200dpi){
     /* Estruturas Genéricas */
     #pageone{
         background-image: url("https://www.sensecentar.org/sites/default/files/styles/max_1300x1300/public/2020-05/courtroom%20one.jpg?itok=3rzk1nHS");
