@@ -344,8 +344,7 @@ main{
         position: absolute;
         width: 90%;
         top: 63vh;
-        left: 50%;
-        transform: translateX(-50%);
+        left: 5%;
         font-size: 4vh;
         text-align: center;
         color: rgb(17, 86, 216);
